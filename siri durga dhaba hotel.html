@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIRI DURGA DHABA HOTEL - Menu</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f5;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+    .header {
+      text-align: center;
+      padding: 16px;
+      background: #b71c1c;
+      color: #fff;
+      border-radius: 0 0 16px 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .hotel-name {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .tagline {
+      margin: 4px 0 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+.section-title {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #b71c1c;
+      border-left: 4px solid #b71c1c;
+      padding-left: 8px;
+    }
+    .items {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .item-row {
+      background: #ffffff;
+      margin-bottom: 6px;
+      padding: 8px 12px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      font-size: 14px;
+    }
+    .item-name {
+      font-weight: 500;
+    }
+    .item-desc {
+      font-size: 12px;
+      color: #666;
+      margin-top: 2px;
+    }
+    .price {
+      font-weight: 700;
+      font-size: 14px;
+      margin-left: 8px;
+      white-space: nowrap;
+    }
+    .note {
+      font-size: 11px;
+      color: #777;
+      margin-top: 24px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      font-size: 11px;
+      color: #999;
+      margin: 16px 0 8px;
+    }
+    @media (max-width: 600px) {
+      .item-row { flex-direction: row; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1 class="hotel-name">SIRI DURGA DHABA HOTEL</h1>
+    <p class="tagline">Pure Dhaba Taste – Fresh, Hot & Hygienic</p>
+  </div>
+
+  <div class="container">
+<!-- Pulka / Roti -->
+    <h2 class="section-title">Pulka / Roti</h2>
+    <ul class="items">
+      <li class="item-row">
+        <div>
+          <div class="item-name">Kaju Tomato</div>
+          <div class="item-desc">Rich cashew & tomato gravy, best with pulka/roti</div>
+        </div>
+        <div class="price">₹130</div>
+      </li>
+
+      <li class="item-row">
+        <div>
+          <div class="item-name">Boneless Kaju</div>
+          <div class="item-desc">Special cashew curry in creamy gravy</div>
+        </div>
+        <div class="price">₹200</div>
+      </li>
+
+      <li class="item-row">
+        <div>
+          <div class="item-name">Pulka (Each)</div>
+        </div>
+        <div class="price">₹10</div>
+      </li>
+
+      <li class="item-row">
+        <div>
+          <div class="item-name">Roti (Each)</div>
+        </div>
+        <div class="price">₹15</div>
+      </li>
+    </ul>
+<!-- Veg Curries -->
+    <h2 class="section-title">Veg Curries</h2>
+    <ul class="items">
+      <li class="item-row">
+        <div>
+          <div class="item-name">Paneer Butter Masala</div>
+        </div>
+        <div class="price">₹140</div>
+      </li>
+
+      <li class="item-row">
+        <div>
+          <div class="item-name">Veg Kurma</div>
+        </div>
+        <div class="price">₹120</div>
+      </li>
+
+      <li class="item-row">
+        <div>
+          <div class="item-name">Mixed Veg Curry</div>
+        </div>
+        <div class="price">₹120</div>
+      </li>
+
+      <li class="item-row">
+        <div>
+          <div class="item-name">Dal Fry</div>
+        </div>
+        <div class="price">₹100</div>
+      </li>
+    </ul>
+<!-- Non-Veg Curries -->
+    <h2 class="section-title">Non-Veg Curries</h2>
+    <ul class="items">
+      <li class="item-row">
+        <div class="item-name">Chicken Curry</div>
+        <div class="price">₹160</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Chicken Fry</div>
+        <div class="price">₹180</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Egg Curry</div>
+        <div class="price">₹120</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Fish Curry</div>
+        <div class="price">₹190</div>
+      </li>
+    </ul>
+<!-- Rice & Meals -->
+    <h2 class="section-title">Rice & Meals</h2>
+    <ul class="items">
+      <li class="item-row">
+        <div class="item-name">Veg Meals</div>
+        <div class="price">₹120</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Full Meals</div>
+        <div class="price">₹150</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Curd Rice</div>
+        <div class="price">₹80</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Sambar Rice</div>
+        <div class="price">₹90</div>
+      </li>
+    </ul>
+<!-- Biryani & Rice Specials -->
+    <h2 class="section-title">Biryani & Rice Specials</h2>
+    <ul class="items">
+      <li class="item-row">
+        <div class="item-name">Veg Biryani</div>
+        <div class="price">₹140</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Chicken Biryani</div>
+        <div class="price">₹180</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Egg Biryani</div>
+        <div class="price">₹150</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Veg Fried Rice</div>
+        <div class="price">₹130</div>
+      </li>
+    </ul>
+<!-- Starters / Snacks -->
+    <h2 class="section-title">Starters / Snacks</h2>
+    <ul class="items">
+      <li class="item-row">
+        <div class="item-name">Gobi 65</div>
+        <div class="price">₹130</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Paneer 65</div>
+        <div class="price">₹150</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Chicken 65</div>
+        <div class="price">₹180</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Veg Manchuria</div>
+        <div class="price">₹130</div>
+      </li>
+    </ul>
+<!-- Tiffins -->
+    <h2 class="section-title">Tiffins</h2>
+    <ul class="items">
+      <li class="item-row">
+        <div class="item-name">Idli (2 pcs)</div>
+        <div class="price">₹40</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Dosa</div>
+        <div class="price">₹50</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Poori</div>
+        <div class="price">₹50</div>
+      </li>
+    </ul>
+<!-- Beverages -->
+    <h2 class="section-title">Tea & Beverages</h2>
+    <ul class="items">
+      <li class="item-row">
+        <div class="item-name">Tea</div>
+        <div class="price">₹15</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Coffee</div>
+        <div class="price">₹20</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Butter Milk</div>
+        <div class="price">₹20</div>
+      </li>
+
+      <li class="item-row">
+        <div class="item-name">Cool Drinks</div>
+        <div class="price">MRP</div>
+      </li>
+    </ul>
+
+    <p class="note">
+      Owner Note: To change price or item, edit this code and update menu anytime.
+    </p>
+
+  </div>
+
+  <footer>
+    SIRI DURGA DHABA HOTEL - Digital Menu
+  </footer>
+
+</body>
+</html>
+
+
+
+
